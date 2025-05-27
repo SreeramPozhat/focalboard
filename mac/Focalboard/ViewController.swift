@@ -76,7 +76,7 @@ class ViewController:
 	private func updateSessionTokenAndUserSettings() {
 		let appDelegate = NSApplication.shared.delegate as! AppDelegate
 		let sessionTokenScript = WKUserScript(
-			source: "localStorage.setItem('focalboardSessionId', '\(appDelegate.sessionToken)');",
+			source: "localStorage.setItem('karmaboardSessionId', '\(appDelegate.sessionToken)');",
 			injectionTime: .atDocumentStart,
 			forMainFrameOnly: true
 		)

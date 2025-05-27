@@ -1,8 +1,8 @@
-# Focalboard Plugin End User's Guide
+# Karmaboard Plugin End User's Guide
 
-The Focalboard plugin is a deliverable and task management solution to help teams achieve project milestones using a familiar kanban board structure.
+The Karmaboard plugin is a deliverable and task management solution to help teams achieve project milestones using a familiar kanban board structure.
 
-This user guide is for anyone looking to use Focalboard to:
+This user guide is for anyone looking to use Karmaboard to:
 - Align work across the organization and drive milestone achievement such as project planning, execution, and task management.
 - Keep everyone in your team and organization in the loop to stay on schedule with clearly defined tasks, owners, checklists, and deadlines.
 - Increase transparency and keep all resources available including documents, images, and important hyperlinks.

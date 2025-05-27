@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Focalboard")]
-[assembly: AssemblyDescription("Focalboard Windows App")]
+[assembly: AssemblyTitle("Karmaboard")]
+[assembly: AssemblyDescription("Karmaboard Windows App")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Focalboard")]
+[assembly: AssemblyProduct("Karmaboard")]
 [assembly: AssemblyCopyright("Copyright © Mattermost, Inc. 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

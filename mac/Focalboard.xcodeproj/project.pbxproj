@@ -14,8 +14,8 @@
 		80D6DEBD252E13CB00AEED9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6DEBC252E13CB00AEED9E /* ViewController.swift */; };
 		80D6DEBF252E13CD00AEED9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D6DEBE252E13CD00AEED9E /* Assets.xcassets */; };
 		80D6DEC2252E13CD00AEED9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D6DEC0252E13CD00AEED9E /* Main.storyboard */; };
-		80D6DECE252E13CD00AEED9E /* FocalboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6DECD252E13CD00AEED9E /* FocalboardTests.swift */; };
-		80D6DED9252E13CD00AEED9E /* FocalboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6DED8252E13CD00AEED9E /* FocalboardUITests.swift */; };
+		80D6DECE252E13CD00AEED9E /* KarmaboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6DECD252E13CD00AEED9E /* KarmaboardTests.swift */; };
+		80D6DED9252E13CD00AEED9E /* KarmaboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6DED8252E13CD00AEED9E /* KarmaboardUITests.swift */; };
 		80D6DEEA252E15D100AEED9E /* resources in Resources */ = {isa = PBXBuildFile; fileRef = 80D6DEE9252E15D100AEED9E /* resources */; };
 		80D6DF18252F9BDE00AEED9E /* AutoSaveWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6DF17252F9BDE00AEED9E /* AutoSaveWindowController.swift */; };
 		80F174B72788C1A2000A9EEA /* CustomWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F174B62788C1A2000A9EEA /* CustomWKWebView.swift */; };
@@ -29,14 +29,14 @@
 			containerPortal = 80D6DEAF252E13CB00AEED9E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 80D6DEB6252E13CB00AEED9E;
-			remoteInfo = Focalboard;
+			remoteInfo = Karmaboard;
 		};
 		80D6DED5252E13CD00AEED9E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 80D6DEAF252E13CB00AEED9E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 80D6DEB6252E13CB00AEED9E;
-			remoteInfo = Focalboard;
+			remoteInfo = Karmaboard;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,18 +44,18 @@
 		8014951B261598D600A51700 /* PortUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortUtils.swift; sourceTree = "<group>"; };
 		804E57FB27441B6B008526F0 /* whatsnew.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = whatsnew.txt; sourceTree = "<group>"; };
 		80672A8A27BAFEBA00257B8C /* DownloadHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHandler.swift; sourceTree = "<group>"; };
-		80D6DEB7252E13CB00AEED9E /* Focalboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focalboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D6DEB7252E13CB00AEED9E /* Karmaboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karmaboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D6DEBA252E13CB00AEED9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D6DEBC252E13CB00AEED9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80D6DEBE252E13CD00AEED9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D6DEC1252E13CD00AEED9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80D6DEC3252E13CD00AEED9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80D6DEC4252E13CD00AEED9E /* Focalboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Focalboard.entitlements; sourceTree = "<group>"; };
-		80D6DEC9252E13CD00AEED9E /* FocalboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocalboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80D6DECD252E13CD00AEED9E /* FocalboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocalboardTests.swift; sourceTree = "<group>"; };
+		80D6DEC4252E13CD00AEED9E /* Karmaboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Karmaboard.entitlements; sourceTree = "<group>"; };
+		80D6DEC9252E13CD00AEED9E /* KarmaboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarmaboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D6DECD252E13CD00AEED9E /* KarmaboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarmaboardTests.swift; sourceTree = "<group>"; };
 		80D6DECF252E13CD00AEED9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80D6DED4252E13CD00AEED9E /* FocalboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocalboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80D6DED8252E13CD00AEED9E /* FocalboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocalboardUITests.swift; sourceTree = "<group>"; };
+		80D6DED4252E13CD00AEED9E /* KarmaboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarmaboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D6DED8252E13CD00AEED9E /* KarmaboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarmaboardUITests.swift; sourceTree = "<group>"; };
 		80D6DEDA252E13CD00AEED9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D6DEE9252E15D100AEED9E /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
 		80D6DF17252F9BDE00AEED9E /* AutoSaveWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSaveWindowController.swift; sourceTree = "<group>"; };
@@ -93,10 +93,10 @@
 		80D6DEAE252E13CB00AEED9E = {
 			isa = PBXGroup;
 			children = (
-				80D6DEB9252E13CB00AEED9E /* Focalboard */,
-				80D6DECC252E13CD00AEED9E /* FocalboardTests */,
+				80D6DEB9252E13CB00AEED9E /* Karmaboard */,
+				80D6DECC252E13CD00AEED9E /* KarmaboardTests */,
 				80D6DEE9252E15D100AEED9E /* resources */,
-				80D6DED7252E13CD00AEED9E /* FocalboardUITests */,
+				80D6DED7252E13CD00AEED9E /* KarmaboardUITests */,
 				80D6DEB8252E13CB00AEED9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,14 +104,14 @@
 		80D6DEB8252E13CB00AEED9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80D6DEB7252E13CB00AEED9E /* Focalboard.app */,
-				80D6DEC9252E13CD00AEED9E /* FocalboardTests.xctest */,
-				80D6DED4252E13CD00AEED9E /* FocalboardUITests.xctest */,
+				80D6DEB7252E13CB00AEED9E /* Karmaboard.app */,
+				80D6DEC9252E13CD00AEED9E /* KarmaboardTests.xctest */,
+				80D6DED4252E13CD00AEED9E /* KarmaboardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80D6DEB9252E13CB00AEED9E /* Focalboard */ = {
+		80D6DEB9252E13CB00AEED9E /* Karmaboard */ = {
 			isa = PBXGroup;
 			children = (
 				80D6DEBA252E13CB00AEED9E /* AppDelegate.swift */,
@@ -126,36 +126,36 @@
 				80D6DEBE252E13CD00AEED9E /* Assets.xcassets */,
 				80D6DEC0252E13CD00AEED9E /* Main.storyboard */,
 				80D6DEC3252E13CD00AEED9E /* Info.plist */,
-				80D6DEC4252E13CD00AEED9E /* Focalboard.entitlements */,
+				80D6DEC4252E13CD00AEED9E /* Karmaboard.entitlements */,
 				80D6DF1C25324A4F00AEED9E /* Inherit.entitlements */,
 			);
-			path = Focalboard;
+			path = Karmaboard;
 			sourceTree = "<group>";
 		};
-		80D6DECC252E13CD00AEED9E /* FocalboardTests */ = {
+		80D6DECC252E13CD00AEED9E /* KarmaboardTests */ = {
 			isa = PBXGroup;
 			children = (
-				80D6DECD252E13CD00AEED9E /* FocalboardTests.swift */,
+				80D6DECD252E13CD00AEED9E /* KarmaboardTests.swift */,
 				80D6DECF252E13CD00AEED9E /* Info.plist */,
 			);
-			path = FocalboardTests;
+			path = KarmaboardTests;
 			sourceTree = "<group>";
 		};
-		80D6DED7252E13CD00AEED9E /* FocalboardUITests */ = {
+		80D6DED7252E13CD00AEED9E /* KarmaboardUITests */ = {
 			isa = PBXGroup;
 			children = (
-				80D6DED8252E13CD00AEED9E /* FocalboardUITests.swift */,
+				80D6DED8252E13CD00AEED9E /* KarmaboardUITests.swift */,
 				80D6DEDA252E13CD00AEED9E /* Info.plist */,
 			);
-			path = FocalboardUITests;
+			path = KarmaboardUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80D6DEB6252E13CB00AEED9E /* Focalboard */ = {
+		80D6DEB6252E13CB00AEED9E /* Karmaboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80D6DEDD252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "Focalboard" */;
+			buildConfigurationList = 80D6DEDD252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "Karmaboard" */;
 			buildPhases = (
 				80D6DEB3252E13CB00AEED9E /* Sources */,
 				80D6DEB4252E13CB00AEED9E /* Frameworks */,
@@ -166,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = Focalboard;
-			productName = Focalboard;
-			productReference = 80D6DEB7252E13CB00AEED9E /* Focalboard.app */;
+			name = Karmaboard;
+			productName = Karmaboard;
+			productReference = 80D6DEB7252E13CB00AEED9E /* Karmaboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80D6DEC8252E13CD00AEED9E /* FocalboardTests */ = {
+		80D6DEC8252E13CD00AEED9E /* KarmaboardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80D6DEE0252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "FocalboardTests" */;
+			buildConfigurationList = 80D6DEE0252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "KarmaboardTests" */;
 			buildPhases = (
 				80D6DEC5252E13CD00AEED9E /* Sources */,
 				80D6DEC6252E13CD00AEED9E /* Frameworks */,
@@ -184,14 +184,14 @@
 			dependencies = (
 				80D6DECB252E13CD00AEED9E /* PBXTargetDependency */,
 			);
-			name = FocalboardTests;
-			productName = FocalboardTests;
-			productReference = 80D6DEC9252E13CD00AEED9E /* FocalboardTests.xctest */;
+			name = KarmaboardTests;
+			productName = KarmaboardTests;
+			productReference = 80D6DEC9252E13CD00AEED9E /* KarmaboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		80D6DED3252E13CD00AEED9E /* FocalboardUITests */ = {
+		80D6DED3252E13CD00AEED9E /* KarmaboardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80D6DEE3252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "FocalboardUITests" */;
+			buildConfigurationList = 80D6DEE3252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "KarmaboardUITests" */;
 			buildPhases = (
 				80D6DED0252E13CD00AEED9E /* Sources */,
 				80D6DED1252E13CD00AEED9E /* Frameworks */,
@@ -202,9 +202,9 @@
 			dependencies = (
 				80D6DED6252E13CD00AEED9E /* PBXTargetDependency */,
 			);
-			name = FocalboardUITests;
-			productName = FocalboardUITests;
-			productReference = 80D6DED4252E13CD00AEED9E /* FocalboardUITests.xctest */;
+			name = KarmaboardUITests;
+			productName = KarmaboardUITests;
+			productReference = 80D6DED4252E13CD00AEED9E /* KarmaboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 80D6DEB2252E13CB00AEED9E /* Build configuration list for PBXProject "Focalboard" */;
+			buildConfigurationList = 80D6DEB2252E13CB00AEED9E /* Build configuration list for PBXProject "Karmaboard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,9 +242,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80D6DEB6252E13CB00AEED9E /* Focalboard */,
-				80D6DEC8252E13CD00AEED9E /* FocalboardTests */,
-				80D6DED3252E13CD00AEED9E /* FocalboardUITests */,
+				80D6DEB6252E13CB00AEED9E /* Karmaboard */,
+				80D6DEC8252E13CD00AEED9E /* KarmaboardTests */,
+				80D6DED3252E13CD00AEED9E /* KarmaboardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,7 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Un-comment this to enable codesign\n# /usr/bin/codesign --force --timestamp --options runtime --sign \"$CODE_SIGN_IDENTITY\" -i \"com.mattermost.focalboardServer\" --entitlement \"$PROJECT_DIR/Focalboard/Inherit.entitlements\" \"$BUILD_DIR/$CONFIGURATION/$EXECUTABLE_FOLDER_PATH/../Resources/resources/bin/focalboard-server\"\n";
+			shellScript = "# Un-comment this to enable codesign\n# /usr/bin/codesign --force --timestamp --options runtime --sign \"$CODE_SIGN_IDENTITY\" -i \"com.mattermost.karmaboardServer\" --entitlement \"$PROJECT_DIR/Karmaboard/Inherit.entitlements\" \"$BUILD_DIR/$CONFIGURATION/$EXECUTABLE_FOLDER_PATH/../Resources/resources/bin/karmaboard-server\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -318,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D6DECE252E13CD00AEED9E /* FocalboardTests.swift in Sources */,
+				80D6DECE252E13CD00AEED9E /* KarmaboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D6DED9252E13CD00AEED9E /* FocalboardUITests.swift in Sources */,
+				80D6DED9252E13CD00AEED9E /* KarmaboardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,12 +335,12 @@
 /* Begin PBXTargetDependency section */
 		80D6DECB252E13CD00AEED9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80D6DEB6252E13CB00AEED9E /* Focalboard */;
+			target = 80D6DEB6252E13CB00AEED9E /* Karmaboard */;
 			targetProxy = 80D6DECA252E13CD00AEED9E /* PBXContainerItemProxy */;
 		};
 		80D6DED6252E13CD00AEED9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80D6DEB6252E13CB00AEED9E /* Focalboard */;
+			target = 80D6DEB6252E13CB00AEED9E /* Karmaboard */;
 			targetProxy = 80D6DED5252E13CD00AEED9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -477,20 +477,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Focalboard/Focalboard.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Karmaboard/Karmaboard.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 33;
 				DEVELOPMENT_TEAM = HFP57A3MYB;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = Focalboard/Info.plist;
+				INFOPLIST_FILE = Karmaboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 7.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.focalboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.karmaboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -502,20 +502,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Focalboard/Focalboard.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Karmaboard/Karmaboard.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 33;
 				DEVELOPMENT_TEAM = HFP57A3MYB;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = Focalboard/Info.plist;
+				INFOPLIST_FILE = Karmaboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 7.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.focalboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.karmaboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -530,17 +530,17 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
-				INFOPLIST_FILE = FocalboardTests/Info.plist;
+				INFOPLIST_FILE = KarmaboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.focalboardTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.karmaboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focalboard.app/Contents/MacOS/Focalboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karmaboard.app/Contents/MacOS/Karmaboard";
 			};
 			name = Debug;
 		};
@@ -552,17 +552,17 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
-				INFOPLIST_FILE = FocalboardTests/Info.plist;
+				INFOPLIST_FILE = KarmaboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.focalboardTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.karmaboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focalboard.app/Contents/MacOS/Focalboard";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karmaboard.app/Contents/MacOS/Karmaboard";
 			};
 			name = Release;
 		};
@@ -573,16 +573,16 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
-				INFOPLIST_FILE = FocalboardUITests/Info.plist;
+				INFOPLIST_FILE = KarmaboardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.focalboardUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.karmaboardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Focalboard;
+				TEST_TARGET_NAME = Karmaboard;
 			};
 			name = Debug;
 		};
@@ -593,23 +593,23 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UQ8HT4Q2XM;
-				INFOPLIST_FILE = FocalboardUITests/Info.plist;
+				INFOPLIST_FILE = KarmaboardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.focalboardUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattermost.karmaboardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Focalboard;
+				TEST_TARGET_NAME = Karmaboard;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80D6DEB2252E13CB00AEED9E /* Build configuration list for PBXProject "Focalboard" */ = {
+		80D6DEB2252E13CB00AEED9E /* Build configuration list for PBXProject "Karmaboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80D6DEDB252E13CD00AEED9E /* Debug */,
@@ -618,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80D6DEDD252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "Focalboard" */ = {
+		80D6DEDD252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "Karmaboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80D6DEDE252E13CD00AEED9E /* Debug */,
@@ -627,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80D6DEE0252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "FocalboardTests" */ = {
+		80D6DEE0252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "KarmaboardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80D6DEE1252E13CD00AEED9E /* Debug */,
@@ -636,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80D6DEE3252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "FocalboardUITests" */ = {
+		80D6DEE3252E13CD00AEED9E /* Build configuration list for PBXNativeTarget "KarmaboardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80D6DEE4252E13CD00AEED9E /* Debug */,

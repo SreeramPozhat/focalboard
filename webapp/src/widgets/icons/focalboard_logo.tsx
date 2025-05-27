@@ -3,12 +3,12 @@
 
 import React from 'react'
 
-import './focalboard_logo.scss'
+import './karmaboard_logo.scss'
 
-export default function FocalboardLogoIcon(): JSX.Element {
+export default function KarmaboardLogoIcon(): JSX.Element {
     return (
         <svg
-            className='FocalboardLogoIcon Icon'
+            className='KarmaboardLogoIcon Icon'
             version='1.1'
             x='0px'
             y='0px'

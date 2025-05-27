@@ -14,7 +14,7 @@ class Globals {
 	}
 
 	static func openGetCloudServerUrl() {
-		let url = URL(string: "https://mattermost.com/sign-up/?utm_source=focalboard&utm_campaign=focalboardapp")!
+		let url = URL(string: "https://mattermost.com/sign-up/?utm_source=karmaboard&utm_campaign=karmaboardapp")!
 		NSWorkspace.shared.open(url)
 	}
 }

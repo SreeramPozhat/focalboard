@@ -72,7 +72,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	
 	private func webFolder() -> URL {
 		let url = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-		return url.appendingPathComponent("Focalboard").appendingPathComponent("server")
+		return url.appendingPathComponent("Karmaboard").appendingPathComponent("server")
 	}
 
 	private func copyResources() {
@@ -136,14 +136,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		sessionToken = generateSessionToken()
 
 		let cwdUrl = webFolder()
-		let executablePath = Bundle.main.path(forResource: "resources/bin/focalboard-server", ofType: "")
+		let executablePath = Bundle.main.path(forResource: "resources/bin/karmaboard-server", ofType: "")
 
 		let pid = ProcessInfo.processInfo.processIdentifier
 		NSLog("pid: \(pid)")
 		let serverProcess = Process()
 		serverProcess.currentDirectoryPath = cwdUrl.path
 		serverProcess.arguments = ["-monitorpid", "\(pid)", "-port", "\(serverPort)", "-single-user"]
-		serverProcess.environment = ["FOCALBOARD_SINGLE_USER_TOKEN": sessionToken]
+		serverProcess.environment = ["KARMABOARD_SINGLE_USER_TOKEN": sessionToken]
 		serverProcess.launchPath = executablePath
 		serverProcess.launch()
 		self.serverProcess = serverProcess

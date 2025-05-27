@@ -1,10 +1,10 @@
-Welcome to Focalboard v7.2!
+Welcome to Karmaboard v7.2!
 
 Mattermost Boards is now availalbe as a Cloud service. Set up your free server via the button below to collaborate with your team.
 
-Mattermost Boards combines all the features of Focalboard with real-time collaboration, calls, and playbooks.
+Mattermost Boards combines all the features of Karmaboard with real-time collaboration, calls, and playbooks.
 
-You can export boards from Focalboard and import them into Mattermost Boards, and pick up where you left off.
+You can export boards from Karmaboard and import them into Mattermost Boards, and pick up where you left off.
 
 Thank you contributors! Recent improvements include:
 
@@ -14,4 +14,4 @@ If you like what you see, please consider taking a moment to rate this version i
 
 Thanks so much,
 
--- The Focalboard developers and community
+-- The Karmaboard developers and community

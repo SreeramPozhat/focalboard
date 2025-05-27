@@ -2,9 +2,9 @@
 // See LICENSE.txt for license information.
 
 import XCTest
-@testable import Focalboard
+@testable import Karmaboard
 
-class FocalboardTests: XCTestCase {
+class KarmaboardTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

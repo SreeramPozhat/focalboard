@@ -8,7 +8,7 @@ using System.Net;
 using System.Windows;
 using Windows.Storage;
 
-namespace Focalboard {
+namespace Karmaboard {
     class Webview2Installer {
         public int exitCode = -1;
         public int downloadProgress = 0;

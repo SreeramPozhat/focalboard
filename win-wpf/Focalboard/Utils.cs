@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 using System.IO;
 
-namespace Focalboard {
+namespace Karmaboard {
     static class Utils {
         public static string GetAppFolder() {
             string appFolder;

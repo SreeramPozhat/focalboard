@@ -13,11 +13,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Focalboard" id="1Xt-HY-uBw">
+                            <menuItem title="Karmaboard" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Focalboard" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Karmaboard" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Focalboard" id="5kV-Vb-QxS">
+                                        <menuItem title="About Karmaboard" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -43,7 +43,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Focalboard" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Karmaboard" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -61,7 +61,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Focalboard" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Karmaboard" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -641,7 +641,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="Focalboard Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Karmaboard Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -655,7 +655,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Focalboard" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Karmaboard" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -664,8 +664,8 @@
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController storyboardIdentifier="WindowController" id="B8D-0N-5wS" customClass="AutoSaveWindowController" customModule="Focalboard" customModuleProvider="target" sceneMemberID="viewController">
-                    <window key="window" title="Focalboard" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" tabbingMode="disallowed" id="IQv-IB-iLA">
+                <windowController storyboardIdentifier="WindowController" id="B8D-0N-5wS" customClass="AutoSaveWindowController" customModule="Karmaboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Karmaboard" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" tabbingMode="disallowed" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="800" height="600"/>
@@ -686,12 +686,12 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="XfG-lQ-9wD" customClass="ViewController" customModule="Focalboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="XfG-lQ-9wD" customClass="ViewController" customModule="Karmaboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="600"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ZQ-vZ-SCO" customClass="CustomWKWebView" customModule="Focalboard" customModuleProvider="target">
+                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ZQ-vZ-SCO" customClass="CustomWKWebView" customModule="Karmaboard" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="1000" height="600"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -717,7 +717,7 @@
         <!--What's New-->
         <scene sceneID="xJu-Zl-eo4">
             <objects>
-                <viewController title="What's New" storyboardIdentifier="WhatsNewViewController" id="aYX-zT-OJj" customClass="WhatsNewViewController" customModule="Focalboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="What's New" storyboardIdentifier="WhatsNewViewController" id="aYX-zT-OJj" customClass="WhatsNewViewController" customModule="Karmaboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="fy7-95-Eie">
                         <rect key="frame" x="0.0" y="0.0" width="614" height="492"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -736,7 +736,7 @@
                                             <size key="minSize" width="559" height="418"/>
                                             <size key="maxSize" width="636" height="10000000"/>
                                             <attributedString key="textStorage">
-                                                <fragment content="Welcome to Focalboard!">
+                                                <fragment content="Welcome to Karmaboard!">
                                                     <attributes>
                                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                         <font key="NSFont" size="18" name="Helvetica-Bold"/>
@@ -887,7 +887,7 @@ If you like what you see, please consider taking a moment to rate this version i
 
 Thanks so much,
 
--- The Focalboard developers and community
+-- The Karmaboard developers and community
 </string>
                                                     <attributes>
                                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -979,7 +979,7 @@ Thanks so much,
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Zzi-QI-UrX"/>
                                 </constraints>
-                                <buttonCell key="cell" type="push" title="Rate Focalboard" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7Kt-FU-UP3">
+                                <buttonCell key="cell" type="push" title="Rate Karmaboard" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7Kt-FU-UP3">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>

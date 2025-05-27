@@ -12,7 +12,7 @@ using System.Threading;
 using System.Windows;
 using Windows.Storage;
 
-namespace Focalboard {
+namespace Karmaboard {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
@@ -30,7 +30,7 @@ namespace Focalboard {
 
         public void SingleInstanceCheck() {
             bool isOnlyInstance = false;
-            mutex = new Mutex(true, @"Focalboard", out isOnlyInstance);
+            mutex = new Mutex(true, @"Karmaboard", out isOnlyInstance);
             if (!isOnlyInstance) {
                 ShowExistingWindow();
                 Shutdown();
@@ -68,7 +68,7 @@ namespace Focalboard {
             try {
                 InitServer();
             } catch (Exception ex) {
-                MessageBox.Show($"InitServer ERROR: {ex.ToString()}", "Focalboard");
+                MessageBox.Show($"InitServer ERROR: {ex.ToString()}", "Karmaboard");
                 Shutdown();
             }
         }
@@ -88,20 +88,20 @@ namespace Focalboard {
                 appDataFolder = ApplicationData.Current.LocalFolder.Path;
             } catch {
                 var documentsFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                appDataFolder = Path.Combine(documentsFolder, "Focalboard");
+                appDataFolder = Path.Combine(documentsFolder, "Karmaboard");
                 Directory.CreateDirectory(appDataFolder);
                 // Not a UWP app, store in Documents
 
                 // FIXUP code: Copy from old DB location
-                var oldDBPath = Path.Combine(documentsFolder, "focalboard.db");
-                var newDBPath = Path.Combine(appDataFolder, "focalboard.db");
+                var oldDBPath = Path.Combine(documentsFolder, "karmaboard.db");
+                var newDBPath = Path.Combine(appDataFolder, "karmaboard.db");
                 if (!File.Exists(newDBPath) && File.Exists(oldDBPath)) {
                     Debug.WriteLine($"Moving DB file from: {oldDBPath} to {newDBPath}");
                     File.Move(oldDBPath, newDBPath);
 				}
             }
 
-            var dbPath = Path.Combine(appDataFolder, "focalboard.db");
+            var dbPath = Path.Combine(appDataFolder, "karmaboard.db");
             Debug.WriteLine($"dbPath: {dbPath}");
 
             var filesPath = Path.Combine(appDataFolder, "files");
@@ -148,10 +148,10 @@ namespace Focalboard {
     }
 
     static class GoFunctions {
-        [DllImport(@"focalboard-server.dll", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"karmaboard-server.dll", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.StdCall)]
         public static extern void StartServer(byte[] webPath, byte[] filesPath, int port, byte[] singleUserToken, byte[] dbConfigString, byte[] configFilePath);
 
-        [DllImport(@"focalboard-server.dll", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"karmaboard-server.dll", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.StdCall)]
         public static extern void StopServer();
     }
 }
