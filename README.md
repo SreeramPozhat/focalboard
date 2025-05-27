@@ -1,5 +1,6 @@
 > [NOTE]
 > Maintainers are more than welcome! Someone with experience of handling large open source projects. More, the merrier.
+> There may be errors with Windows or Linux. Checked only for Mac in this version. If any error, this is due to some files still yet to be renamed from focal to karma.
 
 # Karmaboard
 
